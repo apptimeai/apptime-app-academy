@@ -1,0 +1,72 @@
+/* Reset e Fontes são gerenciados pelo Tailwind e Google Fonts no HTML */
+
+:root {
+  --font-outfit: 'Outfit', sans-serif;
+}
+
+body {
+  font-family: var(--font-outfit);
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Glassmorphism Utilities */
+.glass-nav {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Animations */
+@keyframes glow {
+  0% {
+    box-shadow:
+      0 0 5px #4f46e5,
+      0 0 10px #4f46e5;
+  }
+  50% {
+    box-shadow:
+      0 0 20px #4f46e5,
+      0 0 30px #a855f7;
+  }
+  100% {
+    box-shadow:
+      0 0 5px #4f46e5,
+      0 0 10px #4f46e5;
+  }
+}
+
+.animate-glow {
+  animation: glow 3s infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse 8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Utility helpers not in standard tailwind config for this CDN setup */
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
