@@ -4,3 +4,6 @@ app:
   buildType: 'static'
   deployPath: '.output/public'
   deployEntry: '.output/public/index.html'
+  title: 'Apptime Starter'
+  description: 'Your modern foundation for high-performance web applications.'
+  keywords: 'Apptime, Nuxt.js, TypeScript, Tailwind CSS'
