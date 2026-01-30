@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background-color: var(--color-base-100);
+  background-image:
+    radial-gradient(
+      circle at 20% 20%,
+      color-mix(in srgb, var(--color-primary), transparent 90%),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 80% 0%,
+      color-mix(in srgb, var(--color-secondary), transparent 90%),
+      transparent 35%
+    );
+  color: var(--color-base-content);
+  font-family: Archivo, sans-serif;
+  min-height: 100vh;
+}
+
+.glass-effect {
+  background: color-mix(in srgb, var(--color-base-200), transparent 40%);
+  border: 1px solid
+    color-mix(in srgb, var(--color-base-content), transparent 90%);
+  backdrop-filter: blur(12px);
+}
+
+.brand-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+}
+
+.brand-text-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

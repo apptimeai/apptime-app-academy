@@ -1,0 +1,73 @@
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: 'apptime';
+  default: true;
+  prefersdark: true;
+  color-scheme: 'dark';
+
+  --color-base-100: #050a18;
+  --color-base-200: #0a1224;
+  --color-base-300: #1a2a45;
+  --color-base-content: #e2e8f0;
+
+  --color-primary: #ff7f00;
+  --color-primary-content: #ffffff;
+  --color-secondary: #ff00ae;
+  --color-secondary-content: #ffffff;
+  --color-accent: #4508f9;
+  --color-accent-content: #ffffff;
+
+  --color-neutral: #22314f;
+  --color-neutral-content: #e2e8f0;
+
+  --radius-selector: 0.4rem;
+  --radius-field: 0.4rem;
+  --radius-box: 0.8rem;
+}
+
+@layer base {
+  body {
+    margin: 0;
+    background-color: var(--color-base-100);
+    background-image:
+      radial-gradient(
+        circle at 20% 20%,
+        color-mix(in srgb, var(--color-primary), transparent 90%),
+        transparent 35%
+      ),
+      radial-gradient(
+        circle at 80% 0%,
+        color-mix(in srgb, var(--color-secondary), transparent 90%),
+        transparent 35%
+      );
+    color: var(--color-base-content);
+    font-family: Archivo, sans-serif;
+    min-height: 100vh;
+  }
+}
+
+@utility glass-effect {
+  background: color-mix(in srgb, var(--color-base-200), transparent 40%);
+  border: 1px solid
+    color-mix(in srgb, var(--color-base-content), transparent 90%);
+  backdrop-filter: blur(12px);
+}
+
+@utility brand-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+}
+
+@utility brand-text-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

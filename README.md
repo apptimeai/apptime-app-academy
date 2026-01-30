@@ -1,75 +1,48 @@
-# Nuxt Minimal Starter
+# ⚡️ Apptime Academy
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Apptime Academy is a web application for education in software engineering and interface design.
 
-## Setup
+## ✨ Features
 
-Make sure to install dependencies:
+- **Nuxt 4 Ready** – Leveraging the latest features for performance and developer experience.
+- **Tailwind CSS 4** – Modern styling with the next generation of Tailwind.
+- **Premium Glassmorphism** – Pre-configured with a sleek dark-mode aesthetic, including glass effects and brand gradients.
+- **Optimized for SPA** – SSR disabled by default, perfect for static hosting and modern web apps.
+- **Modern Typography** – Integrated with 'Inter' and system fonts for a clean look.
+
+## 🚀 Getting Started
+
+Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
 bun install
 ```
 
-## Development Server
+### Development Server
 
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+bun dev
 ```
 
-## Production
+### Production
 
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
 bun run build
-```
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
+# Preview locally
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 📚 Resources
+
+- **[Apptime Documentation](https://apptime.ai/help)** – Learn how to extend this starter.
+- **[Nuxt Documentation](https://nuxt.com/docs)** – Explore the Nuxt framework.
+- **[Tailwind CSS Docs](https://tailwindcss.com/docs)** – Master the utility-first CSS framework.
+
+---
+
+Built with ❤️ by [Apptime](https://apptime.ai)
