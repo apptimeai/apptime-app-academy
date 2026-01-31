@@ -38,18 +38,18 @@
               Apptime Academy
             </h1>
             <p class="text-lg text-base-content/70 font-medium font-archivo">
-              A nova era da educação em engenharia de software e design de interfaces.
+              Tudo o que você precisa para lançar e validar suas ideias digitais, sem perder tempo. 
             </p>
           </div>
         </header>
 
         <div class="mt-8">
           <a
-            href="https://apptime.ai"
+            href="https://wa.me/5511975205644"
             target="_blank"
             class="btn btn-primary btn-lg rounded-field px-8 font-bold text-lg hover:-translate-y-0.5 transition-transform brand-gradient border-none text-primary-content shadow-[0_12px_35px_rgba(255,0,174,0.35)]"
           >
-            Notifique-me
+            Fale Conosco
             <span class="text-xl">→</span>
           </a>
         </div>
